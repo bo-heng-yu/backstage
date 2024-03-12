@@ -21,6 +21,7 @@ import {
   CardContent,
   Typography,
   GridSize,
+  makeStyles,
 } from '@material-ui/core';
 import { parseEntityRef } from '@backstage/catalog-model';
 import { Avatar, Link } from '@backstage/core-components';
@@ -37,6 +38,25 @@ type Props = {
   membersSize: GridSize;
 };
 
+const useStyles = makeStyles(
+  {
+    avatar: {
+      width: '19px',
+      height: '19px',
+      float: 'left',
+      marginRight: '0.3rem',
+      marginTop: '0rem',
+      marginBottom: '0rem',
+      alignItems: 'left',
+    },
+    avatarText: {
+      fontSize: '8px',
+      textAlign: 'left',
+    },
+  },
+  { name: 'CardContentFields' },
+);
+
 export const CardContentFields = ({
   bazaarProject,
   members,
@@ -44,7 +64,7 @@ export const CardContentFields = ({
   membersSize,
 }: Props) => {
   const catalogEntityRoute = useRouteRef(entityRouteRef);
-
+  const classes = useStyles();
   return (
     <div>
       <Card>
@@ -86,17 +106,7 @@ export const CardContentFields = ({
                       >
                         <Avatar
                           displayName={member.userId}
-                          customStyles={{
-                            width: '19px',
-                            height: '19px',
-                            fontSize: '8px',
-                            float: 'left',
-                            marginRight: '0.3rem',
-                            marginTop: '0rem',
-                            marginBottom: '0rem',
-                            alignItems: 'left',
-                            textAlign: 'left',
-                          }}
+                          classes={classes}
                           picture={member.picture}
                         />
                         <Link
