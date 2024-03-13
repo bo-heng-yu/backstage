@@ -1,5 +1,15 @@
 # @backstage/plugin-xcmetrics
 
+## 0.2.49
+
+### Patch Changes
+
+- 7984d1e: Fixed bug in XcMetricsClient where it was not including parameter for excludeCI, which is now a required parameter for XCMetrics.
+- Updated dependencies
+  - @backstage/core-components@0.14.1
+  - @backstage/errors@1.2.4
+  - @backstage/core-plugin-api@1.9.1
+
 ## 0.2.49-next.2
 
 ### Patch Changes

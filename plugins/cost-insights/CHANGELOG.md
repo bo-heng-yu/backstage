@@ -1,5 +1,19 @@
 # @backstage/plugin-cost-insights
 
+## 0.12.20
+
+### Patch Changes
+
+- 1b4fd09: Updated dependency `yup` to `^1.0.0`.
+- Updated dependencies
+  - @backstage/config@1.2.0
+  - @backstage/core-components@0.14.1
+  - @backstage/theme@0.5.2
+  - @backstage/plugin-catalog-react@1.11.0
+  - @backstage/core-plugin-api@1.9.1
+  - @backstage/catalog-model@1.4.5
+  - @backstage/plugin-cost-insights-common@0.1.2
+
 ## 0.12.20-next.2
 
 ### Patch Changes

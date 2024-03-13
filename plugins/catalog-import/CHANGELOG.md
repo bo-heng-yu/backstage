@@ -1,5 +1,25 @@
 # @backstage/plugin-catalog-import
 
+## 0.10.7
+
+### Patch Changes
+
+- 75f686b: Fixed an issue generating a wrong entity link at the end of the import process
+- adc0414: fix related to component name not adhering to kubernetes valid object name.
+- Updated dependencies
+  - @backstage/integration@1.9.1
+  - @backstage/config@1.2.0
+  - @backstage/core-components@0.14.1
+  - @backstage/errors@1.2.4
+  - @backstage/integration-react@1.1.25
+  - @backstage/plugin-catalog-react@1.11.0
+  - @backstage/catalog-client@1.6.1
+  - @backstage/core-plugin-api@1.9.1
+  - @backstage/catalog-model@1.4.5
+  - @backstage/core-compat-api@0.2.1
+  - @backstage/frontend-plugin-api@0.6.1
+  - @backstage/plugin-catalog-common@1.0.22
+
 ## 0.10.7-next.2
 
 ### Patch Changes

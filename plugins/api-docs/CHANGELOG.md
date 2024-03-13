@@ -1,5 +1,22 @@
 # @backstage/plugin-api-docs
 
+## 0.11.1
+
+### Patch Changes
+
+- 7854120: Use the `AppIcon` component in the navigation item extension.
+- efba3d2: Updated dependency `@asyncapi/react-component` to `1.3.1`.
+- Updated dependencies
+  - @backstage/core-components@0.14.1
+  - @backstage/plugin-catalog-react@1.11.0
+  - @backstage/plugin-catalog@1.18.0
+  - @backstage/core-plugin-api@1.9.1
+  - @backstage/plugin-permission-react@0.4.21
+  - @backstage/catalog-model@1.4.5
+  - @backstage/core-compat-api@0.2.1
+  - @backstage/frontend-plugin-api@0.6.1
+  - @backstage/plugin-catalog-common@1.0.22
+
 ## 0.11.1-next.2
 
 ### Patch Changes
